@@ -1,0 +1,15 @@
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\bin\Debug\BoardGameEloCalculator.exe.config
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\bin\Debug\BoardGameEloCalculator.exe
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\bin\Debug\BoardGameEloCalculator.pdb
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\obj\Debug\BoardGameEloCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\obj\Debug\BoardGameEloCalculator.Form1.resources
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\obj\Debug\BoardGameEloCalculator.Properties.Resources.resources
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\obj\Debug\BoardGameEloCalculator.csproj.GenerateResource.cache
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\obj\Debug\BoardGameEloCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\obj\Debug\BoardGameEloCalculator.csproj.CopyComplete
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\obj\Debug\BoardGameEloCalculator.exe
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\obj\Debug\BoardGameEloCalculator.pdb
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\bin\Debug\SerializableDictionary.dll
+C:\Users\Numerion\Source\Repos\BoardGameEloCalculator\BoardGameEloCalculator\bin\Debug\SerializableDictionary.pdb
