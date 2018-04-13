@@ -9,16 +9,16 @@ namespace BoardGameEloCalculator.Objects
     class Elo
     {
         int validAfterPlay;
-        float amount;
+        double amount;
         Elo previous;
-        float valuePrevious;
+        double valuePrevious;
 
         public int ValidAfter { get => validAfterPlay; set => validAfterPlay = value; }
-        public float Amount { get => amount; set => amount = value; }
+        public double Amount { get => amount; set => amount = value; }
         public Elo Previous { get => previous; set => previous = value; }
-        public float ValuePrevious { get => valuePrevious; set => valuePrevious = value; }
+        public double ValuePrevious { get => valuePrevious; set => valuePrevious = value; }
 
-        public Elo(Elo previousElo,float change,Play play)
+        public Elo(Elo previousElo,double change,PlaySession play)
         {
             Previous = previousElo;
             ValuePrevious = previousElo.GetValue();
@@ -35,7 +35,7 @@ namespace BoardGameEloCalculator.Objects
 
         }
 
-        public float GetValue()
+        public double GetValue()
         {
             return Amount;
         }

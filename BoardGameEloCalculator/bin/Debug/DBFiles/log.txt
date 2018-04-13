@@ -11,3 +11,26 @@ games.json not found, creating a new one
 games.json not found, creating a new one
 games.json not found, creating a new one
 games.json not found, creating a new one
+games.json not found, creating a new one
+games.json not found, creating a new one
+games.json not found, creating a new one
+Recalculated after 3plays
+Recalculated after 3plays
+Recalculated after 3plays
+Recalculated after 4plays
+Recalculated after 4plays
+games.json not found, creating a new one
+games.json not found, creating a new one
+games.json not found, creating a new one
+games.json not found, creating a new one
+games.json not found, creating a new one
+games.json not found, creating a new one
+Recalculated after 5 plays
+Recalculated after 5 plays
+games.json not found, creating a new one
+Recalculated after 5 plays
+Recalculated after 5 plays
+Recalculated after 5 plays
+Recalculated after 7 plays
+Recalculated after 7 plays
+Recalculated after 7 plays

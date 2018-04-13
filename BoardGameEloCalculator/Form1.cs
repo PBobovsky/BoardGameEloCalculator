@@ -34,7 +34,7 @@ namespace BoardGameEloCalculator
             foreach (Person player in Program.PlayerList.Players)
             {
                 text += player.Name + "\n";
-                eloText += player.getLatestElo() + "\n";
+                eloText += Math.Round(player.getLatestElo(),2) + "\n";
             }
 
             richTextBox1.Text = text;
@@ -152,6 +152,12 @@ namespace BoardGameEloCalculator
             //TODO figure out scrollbars
             //panel1.VerticalScroll.Value = vScrollBar1.Value;
             //panel1.Controls.Add(vScrollBar1);
+        }
+
+        private void Recalculate_Click(object sender, EventArgs e)
+        {
+            Recalculator.Recalculate();
+            PopulateRichTextBox();
         }
     }
 }

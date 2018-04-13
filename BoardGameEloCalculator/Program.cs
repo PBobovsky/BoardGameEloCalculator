@@ -1,4 +1,5 @@
-﻿using BoardGameEloCalculator.Objects;
+﻿using BoardGameEloCalculator.Helpers;
+using BoardGameEloCalculator.Objects;
 using System;
 using System.Collections.Generic;
 using System.Linq;

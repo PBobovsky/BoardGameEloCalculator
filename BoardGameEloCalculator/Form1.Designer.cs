@@ -37,20 +37,21 @@
             this.positionNumeric = new System.Windows.Forms.NumericUpDown();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.Recalculate = new System.Windows.Forms.Button();
             this.Player.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.positionNumeric)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -131,6 +132,24 @@
             this.panel1.Size = new System.Drawing.Size(469, 524);
             this.panel1.TabIndex = 3;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.vScrollBar1);
+            this.groupBox1.Controls.Add(this.Player);
+            this.groupBox1.Location = new System.Drawing.Point(4, 175);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(464, 346);
+            this.groupBox1.TabIndex = 7;
+            this.groupBox1.TabStop = false;
+            // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(439, 8);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(22, 335);
+            this.vScrollBar1.TabIndex = 4;
+            this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vScrollBar1_Scroll);
+            // 
             // monthCalendar1
             // 
             this.monthCalendar1.Location = new System.Drawing.Point(174, 9);
@@ -179,24 +198,6 @@
             // 
             this.bindingSource1.CurrentChanged += new System.EventHandler(this.bindingSource1_CurrentChanged);
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.vScrollBar1);
-            this.groupBox1.Controls.Add(this.Player);
-            this.groupBox1.Location = new System.Drawing.Point(4, 175);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(464, 346);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
-            // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Location = new System.Drawing.Point(439, 8);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(22, 335);
-            this.vScrollBar1.TabIndex = 4;
-            this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vScrollBar1_Scroll);
-            // 
             // richTextBox2
             // 
             this.richTextBox2.Location = new System.Drawing.Point(193, 41);
@@ -205,11 +206,22 @@
             this.richTextBox2.TabIndex = 7;
             this.richTextBox2.Text = "";
             // 
+            // Recalculate
+            // 
+            this.Recalculate.Location = new System.Drawing.Point(1039, 526);
+            this.Recalculate.Name = "Recalculate";
+            this.Recalculate.Size = new System.Drawing.Size(75, 23);
+            this.Recalculate.TabIndex = 8;
+            this.Recalculate.Text = "Recalculate";
+            this.Recalculate.UseVisualStyleBackColor = true;
+            this.Recalculate.Click += new System.EventHandler(this.Recalculate_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1130, 606);
+            this.Controls.Add(this.Recalculate);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -222,8 +234,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.positionNumeric)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,6 +260,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Button Recalculate;
     }
 }
 

@@ -26,7 +26,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release</OutputPath>
+    <OutputPath>..\..\..\..\..\Mega\Stuff\BoardGameEloFiles\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -57,10 +57,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\AllAroundFixer.cs" />
+    <Compile Include="Helpers\FormulaKeeper.cs" />
     <Compile Include="Helpers\GameManager.cs" />
     <Compile Include="Helpers\IBoardGameObject.cs" />
     <Compile Include="Helpers\Logger.cs" />
     <Compile Include="Helpers\PlayerManager.cs" />
+    <Compile Include="Helpers\Recalculator.cs" />
     <Compile Include="LogPlay.cs" />
     <Compile Include="Objects\Elo.cs" />
     <Compile Include="Objects\Game.cs" />
@@ -69,6 +72,7 @@
     <Compile Include="Objects\Play.cs" />
     <Compile Include="Objects\PlayerList.cs" />
     <Compile Include="Objects\PlayList.cs" />
+    <Compile Include="Objects\PlaySession.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

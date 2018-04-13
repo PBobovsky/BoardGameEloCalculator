@@ -24,16 +24,22 @@ namespace BoardGameEloCalculator.Objects
         public string Name { get => name; set => name = value; }
         public List<Elo> EloList { get => eloList; set => eloList = value; }
 
-        public float getLatestElo()
+        public double getLatestElo()
         {
             return EloList.Last().GetValue();
         }
 
-        public void NewElo(float change, Play play)
+        public void NewElo(double change, PlaySession play)
         {
             Elo newElo = new Elo(EloList.Last(), change, play);
             EloList.Add(newElo);
 
+        }
+
+        public void Wipe()
+        {
+            eloList.Clear();
+            eloList.Add(new Elo());
         }
     }
 }
